@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="slider.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 275px; margin: 200px auto;" class="slides-container">
+        <!-- Update the number of columns (grid-template-columns).
+            It has to be equal to the number of slides -->
+        <div style="grid-template-columns: repeat(3, 1fr);" class="slider">
+                    <div style="background-color: lightblue; height: 100px;" class="slide">Slide 1</div>
+                    <div style="background-color: lightcoral; height: 100px;" class="slide">Slide 2</div>
+                    <div style="background-color: lightcyan; height: 100px;" class="slide">Slide 3</div>
+            </div>
+        <div class="slider-arrows">
+            <i class="ri-arrow-left-s-line slider-arrows__left"></i>
+            <i class="ri-arrow-right-s-line slider-arrows__right"></i>
+        </div>
+    </div>
+    <script src="slider.js"></script>
+</body>
+</html>
